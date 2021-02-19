@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.background-color{background-color: #F4EDED;}
 .borderblack{border:1px solid black;}
+.borderwhite{border:1px solid white;}
 .card{width: auto; margin: 2px auto; padding: 20px;}
 .card:hover{box-shadow:0px 0px 5px 1px;} 
+.link{border-bottom: 3px solid 00DBF9;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
+.text-shadow{text-shadow: 0px 4px 4px rgb(177, 176, 176);}
 .ubuntu{font-family: 'Ubuntu', sans-serif;}
 .App {text-align: center;}
 .App-logo {height: 40vmin;pointer-events: none;}
