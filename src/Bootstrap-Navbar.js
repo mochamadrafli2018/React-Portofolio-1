@@ -1,20 +1,21 @@
 import React from 'react'
-import {Button, Form, FormControl, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+// Import Component from Bootstrap
+import {Nav, Navbar} from 'react-bootstrap';
 
 class NavBar extends React.Component{
     render(){
         return(
             <>
-                <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">Welcome to My Web Apps</Navbar.Brand>
-                    <Nav className="mr-auto borderwhite">
-                        <Nav.Link href="#home" className='borderwhite link' style={{'margin':'2px'}}>Home</Nav.Link>
-                        <Nav.Link href="#features" className='borderwhite link' style={{'margin':'2px'}}>My Github</Nav.Link>
-                        <Nav.Link href="#pricing" className='borderwhite link' style={{'margin':'2px'}}>About Me</Nav.Link>
+                <Navbar variant="light" class='background-color-grey'>
+                    <Nav className="mr-auto" style={{'margin':'2px auto'}}>
+                        <Nav.Link href="#" className='' style={{'margin':'2px 15px'}}><b>Home</b></Nav.Link>
+                        <Nav.Link href="#" className='' style={{'margin':'2px 15px'}}><b>My Github</b></Nav.Link>
+                        <Nav.Link href="#" className='' style={{'margin':'2px 15px'}}><b>About Me</b></Nav.Link>
                     </Nav>
                 </Navbar>
             </>
         )
     }
 }
+//<Navbar.Brand href="#home">Welcome to My Web Apps</Navbar.Brand>
 export default NavBar

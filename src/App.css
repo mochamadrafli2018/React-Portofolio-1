@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-.background-color{background-color: #F4EDED;}
-.borderblack{border:1px solid black;}
-.borderwhite{border:1px solid white;}
-.card{width: auto; margin: 2px auto; padding: 20px;}
-.card:hover{box-shadow:0px 0px 5px 1px;} 
+
+.background-color-grey{background-color: #F4EDED;}
+.background-color-pink{background-color: #B61E79!important;}
+.black:hover{border-bottom: 3px solid 00DBF9 !important;}
+.border-black{border:1px solid black;}
+.border-white{border:1px solid white;}
+.card{width: auto; margin: 2px auto; padding: 20px;border: none!important; border-radius: 30px!important;}
+.card:hover{box-shadow:0px 0px 5px 1px !important;}
+.img-round{border-radius: 30px !important;}
+.letter-spacing{letter-spacing: 1.5px;}
 .link{border-bottom: 3px solid 00DBF9;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
-.text-shadow{text-shadow: 0px 4px 4px rgb(177, 176, 176);}
+.text-shadow{text-shadow: 0px 4px 4px #b1b0b0;}
 .ubuntu{font-family: 'Ubuntu', sans-serif;}
-.App {text-align: center;}
 .App-logo {height: 40vmin;pointer-events: none;}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -26,7 +30,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-link {color: #61dafb;}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

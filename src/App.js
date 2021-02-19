@@ -22,7 +22,7 @@ import AccordionBootstrap from './Bootstrap-Accordion.js';
 //App will be exported to index.js
 function App() {
   return (
-    <div class='quicksand background-color'>
+    <div class='quicksand background-color-grey'>
       <NavBar/>
       <div class='text-center' style={{'margin':'100px auto'}}>
         <h1 class='font-weight-bold text-shadow' style={{'font-size':'30px'}}>Website Learning Course untuk Level Intermediate</h1>
@@ -31,8 +31,6 @@ function App() {
       <Cardcontainer/>
       <h1 class='text-center' style={{'margin-top':'20px'}}>Popular</h1>
       <p class='text-center'>Choose the popular one</p>
-      <Cardcontainer2/>
-      <h1 class='text-center' style={{'margin-top':'20px'}}>Overview</h1>
       <AccordionBootstrap/>
     </div>
   );
