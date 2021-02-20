@@ -1,32 +1,8 @@
 import React from 'react'
 // Import Component from Bootstrap
 import {Card, Col, Container, Row} from 'react-bootstrap'
-// Import Image
-import img1 from './picture/img-1.jpg';
-import img2 from './picture/img-2.jpg';
-import img3 from './picture/img-3.jpg';
-
-//Data
-let Title = [
-  {
-    Id:1,
-    title:'CSS Framework',
-    keterangan:'Pelajari learning path CSS Framework, cara kerjanya dan Buat Desaign Portofolio Milikmu.',
-    img:img1
-  },
-  {
-    Id:2,
-    title:'React.Js',
-    keterangan:'Pelajari libarary java script paling populer di github yang dikembangkan oleh Facebook.',
-    img:img2
-  },
-  {
-    Id:3,
-    title:'Vue.Js',
-    keterangan:'Pelajari framework populer di github yang dikembangkan oleh mantan engineer Google',
-    img:img3
-  }
-]
+// Import Data
+import Title from './Data.js'
 
 //Card Bootstrap
 class CardBootstrap extends React.Component{
