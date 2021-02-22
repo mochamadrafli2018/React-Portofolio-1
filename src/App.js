@@ -14,8 +14,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import Bootstrap Java Script
+import Button from './Button.js'
 import Cardcontainer from './Bootstrap-Card.js';
 import Cardcontainer2 from './Bootstrap-Card-2'
+import Header from './Header.js'
 import NavBar from './Bootstrap-Navbar.js';
 import AccordionBootstrap from './Bootstrap-Accordion.js';
 
@@ -24,13 +26,9 @@ function App() {
   return (
     <div class='quicksand background-color-grey'>
       <NavBar/>
-      <div class='text-center' style={{'margin':'100px auto'}}>
-        <h1 class='font-weight-bold text-shadow' style={{'font-size':'30px'}}>Website Learning Course untuk Level Intermediate</h1>
-        <p class='text-shadow' style={{'font-size':'25px'}}>Never Give Up to Be a Professional Developer</p>
-      </div>
+      <Header/>
+      <Button/>
       <Cardcontainer/>
-      <h1 class='text-center' style={{'margin-top':'20px'}}>Popular</h1>
-      <p class='text-center'>Choose the popular one</p>
       <AccordionBootstrap/>
     </div>
   );
