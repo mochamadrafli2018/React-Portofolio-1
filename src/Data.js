@@ -7,7 +7,7 @@ let Title = [
   {
     Id:1,
     title:'CSS Framework',
-    keterangan:'Pelajari learning path CSS Framework, cara kerjanya dan Buat Desaign Portofolio Milikmu.',
+    keterangan:'Pelajari learning path CSS Framework, cara kerjanya dan buat desaign portofolio milikmu.',
     img:img1
   },
   {

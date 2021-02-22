@@ -10,7 +10,8 @@
 .card:hover{box-shadow:0px 0px 10px 0px #B61E79 !important;}
 .img-round{border-radius: 30px !important;}
 .letter-spacing{letter-spacing: 1.5px;}
-.link{border-bottom: 3px solid 00DBF9;}
+.Navlink{color: #c4c4c4; margin: 2px 15px;}
+.Navlink:hover{border-bottom: 3px solid #00DBF9; font-weight: bold !important;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
 .text-shadow{text-shadow: 0px 4px 4px #b1b0b0;}
 .ubuntu{font-family: 'Ubuntu', sans-serif;}
