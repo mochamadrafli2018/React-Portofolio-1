@@ -2,7 +2,7 @@ import React from 'react'
 // Import Component from Bootstrap
 import {Card, Col, Container, Row} from 'react-bootstrap'
 // Import Data
-import Title from './Data.js'
+import Title from './Data-Card.js'
 
 //Card Bootstrap
 class CardBootstrap extends React.Component{

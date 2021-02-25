@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-.background-color-grey{background-color: #F4EDED;}
 .background-color-pink{background-color: #B61E79!important;}
 .black:hover{border-bottom: 3px solid 00DBF9 !important;}
 .border-black{border:1px solid black;}
@@ -10,8 +9,8 @@
 .card:hover{box-shadow:0px 0px 10px 0px #B61E79 !important;}
 .img-round{border-radius: 30px !important;}
 .letter-spacing{letter-spacing: 1.5px;}
-.Navlink{color: #c4c4c4 !important; margin: 2px 15px;}
-.Navlink:hover{color: black !important; border-bottom: 3px solid #00DBF9; font-weight: bold !important;}
+.navlink{color: #c4c4c4 !important; margin: 2px 15px;}
+.navlink:hover{color: black !important; border-bottom: 3px solid #00DBF9; font-weight: bold !important;text-decoration:none;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
 .text-shadow{text-shadow: 0px 4px 4px #b1b0b0;}
 .ubuntu{font-family: 'Ubuntu', sans-serif;}

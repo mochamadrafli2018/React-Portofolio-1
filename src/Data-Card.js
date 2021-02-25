@@ -2,7 +2,7 @@
 import img1 from './picture/img-1.jpg';
 import img2 from './picture/img-2.jpg';
 import img3 from './picture/img-3.jpg';
-// Import data
+
 let Title = [
   {
     Id:1,
