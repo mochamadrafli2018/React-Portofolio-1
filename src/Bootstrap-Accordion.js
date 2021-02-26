@@ -4,7 +4,7 @@ import Author from './Data-Author.js'
 class AccordionChild extends React.Component{
     render(){
         return(
-            <Card style={{'width':'60%'}}>
+            <Card className='accordion'>
                 <Accordion.Toggle as={Card.Header} eventKey="0">{this.props.judul}</Accordion.Toggle>
                 <Accordion.Collapse eventKey="0"><Card.Body>{this.props.keterangan}</Card.Body></Accordion.Collapse>
             </Card>
@@ -15,13 +15,14 @@ class AccordionBootstrap extends React.Component{
     render(){
         return(
             <>
+                <h1 class='text-center'>My <span>Profile</span></h1>
                 <Accordion defaultActiveKey="0">
                     <>
-                    {Author.map(el => {
-                        return(
-                            <AccordionChild  judul = {el.judul} keterangan = {el.keterangan}/>
-                        )
-                    })}
+                        {Author.map(el => {
+                            return(
+                                <AccordionChild  judul = {el.judul} keterangan = {el.keterangan}/>
+                            )
+                        })}
                     </>
                 </Accordion>
             </>

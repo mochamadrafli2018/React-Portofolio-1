@@ -5,6 +5,9 @@ import {Nav, Navbar} from 'react-bootstrap';
 import AccordionBootstrap from './Bootstrap-Accordion.js';
 import OutputCardContainer from './Bootstrap-Card.js';
 import Header from './Header.js'
+// Import font-awesome
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
 // Import react-router-dom component
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 //Routing must have div inside router element
