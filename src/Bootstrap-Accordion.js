@@ -19,7 +19,7 @@ class AccordionBootstrap extends React.Component{
                     <>
                     {Author.map(el => {
                         return(
-                            <AccordionChild  judul = {el.judul} keterangan = {el.keterangan}/>    
+                            <AccordionChild  judul = {el.judul} keterangan = {el.keterangan}/>
                         )
                     })}
                     </>

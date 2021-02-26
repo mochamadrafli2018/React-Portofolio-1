@@ -3,26 +3,11 @@ import React from 'react'
 import {Nav, Navbar} from 'react-bootstrap';
 // Import external JavaScript file
 import AccordionBootstrap from './Bootstrap-Accordion.js';
-import Cardcontainer from './Bootstrap-Card.js';
+import OutputCardContainer from './Bootstrap-Card.js';
 import Header from './Header.js'
 // Import react-router-dom component
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-
 //Routing must have div inside router element
-class SwitchChild extends React.Component{
-    render(){
-        return(
-            <div>
-            <Switch>
-                <Route exact path="/home"><Home/></Route>
-                <Route exact path="/path"><Card/></Route>
-                <Route path="/aboutme"><About/></Route>
-                <Route path='/github'></Route>
-            </Switch>
-            </div>
-        )
-    }
-}
 class NavBar extends React.Component{
     render(){
         return(
@@ -31,9 +16,9 @@ class NavBar extends React.Component{
                     <>
                         <Navbar variant="light" class='background-color-grey'>
                             <Nav className="mr-auto" style={{'margin':'2px auto'}}>
-                                <Nav.Link href="#"><Link to='/home' className='navlink'><b>Home</b></Link></Nav.Link>
+                                <Nav.Link href="#"><Link to='/' className='navlink'><b>Home</b></Link></Nav.Link>
                                 <Nav.Link href="#"><Link to='/path' className='navlink'><b>Path</b></Link></Nav.Link>
-                                <Nav.Link href="#"><Link to='/aboutme' className='navlink'><b>About Me</b></Link></Nav.Link>
+                                <Nav.Link href="#"><Link to='/aboutme' className='navlink'><b>About</b></Link></Nav.Link>
                                 <Nav.Link href="#"><Link to='/github' className='navlink'><b>My Github</b></Link></Nav.Link>
                             </Nav>
                         </Navbar>
@@ -45,6 +30,20 @@ class NavBar extends React.Component{
     }
 }
 
+class SwitchChild extends React.Component{
+    render(){
+        return(
+            <div>
+                <Switch>
+                    <Route exact path="/"><Home/></Route>
+                    <Route exact path="/path"><Card/></Route>
+                    <Route path="/aboutme"><About/></Route>
+                    <Route path='/github'></Route>
+                </Switch>
+            </div>
+        )
+    }
+}
 //Function to call Cardcontainer and AccordionBootstrap
 function Home(){
     return(
@@ -56,7 +55,7 @@ function Home(){
 function Card(){
     return(
         <div>
-            <Cardcontainer/>
+            <OutputCardContainer/>
         </div>
     )
 }

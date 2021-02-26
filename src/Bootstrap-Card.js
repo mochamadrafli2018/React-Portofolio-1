@@ -27,13 +27,13 @@ class ContainerBootstrap extends React.Component{
   render(){
     return(
       <>
-        <Container class='border-black'>
-          <Row class='border-black' style={{'margin':'5px'}}>
+        <Container className=''>
+          <Row className='' style={{'margin':'20px auto'}}>
             <>
               {Title.map(el => {
                 return(
-                  <Col sm class='border-black' style={{'margin': '2px', 'padding':'auto'}}>                  
-                    <CardBootstrap class='border-black' title={el.title} keterangan={el.keterangan} img={el.img}/>
+                  <Col sm className='' style={{'margin':'2px', 'padding':''}}>                  
+                    <CardBootstrap className='' title={el.title} keterangan={el.keterangan} img={el.img}/>
                   </Col>
                 )
               })}
@@ -45,6 +45,16 @@ class ContainerBootstrap extends React.Component{
   }
 }
 
+class OutputCardContainer extends React.Component{
+  render(){
+    return(
+      <div>
+        <h1 class='text-center' style={{'font-size':''}}>Learning Path</h1>
+        <ContainerBootstrap/>
+      </div>
+    )
+  }
+}
 //Raw Bootstrap Component
 /*const ContainerBootstrap = () => {
     return(
@@ -66,4 +76,4 @@ class ContainerBootstrap extends React.Component{
     )
 }*/
 
-export default ContainerBootstrap;
+export default OutputCardContainer;
