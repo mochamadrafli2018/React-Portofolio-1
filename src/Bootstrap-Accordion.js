@@ -1,22 +1,21 @@
 import React from 'react'
-import {Accordion, Card} from 'react-bootstrap'
+// Import data author
 import Author from './Data-Author.js'
 class AccordionChild extends React.Component{
     render(){
         return(
-            <Card className='accordion'>
-                <Accordion.Toggle as={Card.Header} eventKey="0">{this.props.judul}</Accordion.Toggle>
-                <Accordion.Collapse eventKey="0"><Card.Body>{this.props.keterangan}</Card.Body></Accordion.Collapse>
-            </Card>
+            <div className='accordion card'>
+                <h1 class='accordion-p1 text-center'>{this.props.judul}</h1>
+                <p class='accordion-p2'>{this.props.keterangan}</p>
+            </div>
         )
     }
 }
-class AccordionBootstrap extends React.Component{
+class OutputProfile extends React.Component{
     render(){
         return(
             <>
-                <h1 class='text-center'>My <span>Profile</span></h1>
-                <Accordion defaultActiveKey="0">
+                <h1 class='accordion-h1 text-center'>My <span>Profile</span></h1>
                     <>
                         {Author.map(el => {
                             return(
@@ -24,10 +23,9 @@ class AccordionBootstrap extends React.Component{
                             )
                         })}
                     </>
-                </Accordion>
             </>
         )
-    }
+    } 
 }
 
-export default AccordionBootstrap
+export default OutputProfile

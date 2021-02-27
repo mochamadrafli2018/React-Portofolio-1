@@ -1,20 +1,77 @@
+/* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-.accordion{width: 60%; margin:20px auto;}
-/*Must 382px not 382 px*/
+/* Elemen di bawah ini harus di tulis sebelum media screen supaya efek responsive bisa berjalan */
+.card-2{width: 50%; margin: 10px auto; padding: 10px;border: none; border-radius: 10px;}
+.card-2:hover{box-shadow:0px 0px 10px 0px #B61E79;}
+.card-2-h1{font-size: 30px;}
+.card-2-p1{font-size: 25px;}
+.card-2-p2{font-size: 20px;}
+.header-h1{font-size: 30px;}
+.header-p1{font-size: 25px;}
+.header-p2{font-size: 20px;}
+.header-p3{font-size: 20px;}
+/* Penulisan angka font harus tanpa spasi (382px bukan 382 px) */
+@media screen and (max-width: 900px){
+  .card-2{width: 55%;}
+  .card-2-h1{font-size: 29px;}
+  .card-2-p1{font-size: 24px;}
+  .card-2-p2{font-size: 19px;}
+}
+@media screen and (max-width: 800px){
+  .card-2{width: 60%;}
+  .card-2-h1{font-size: 28px;}
+  .card-2-p1{font-size: 23px;}
+  .card-2-p2{font-size: 18px;}
+  .header-h1{font-size: 28px !important;}
+  .header-p1{font-size: 23px !important;}
+  .header-p2{font-size: 18px !important;}
+  .header-p3{font-size: 18px !important;}
+}
 @media screen and (max-width: 700px){
-  .accordion{width: 70%;}
+  .card-2{width: 70%;}
+  .card-2-h1{font-size: 27px;}
+  .card-2-p1{font-size: 22px;}
+  .card-2-p2{font-size: 17px;}
+  .header-h1{font-size: 27px !important;}
+  .header-p1{font-size: 23px !important;}
+  .header-p2{font-size: 18px !important;}
+  .header-p3{font-size: 18px !important;}
 }
-@media screen and (max-width: 550px){
-  .accordion{width: 80%;}
+@media screen and (max-width: 600px){
+  .card-2{width: 80%;}
+  .card-2-h1{font-size: 26px;}
+  .card-2-p1{font-size: 21px;}
+  .card-2-p2{font-size: 16px;}
+  .header-h1{font-size: 26px !important;}
+  .header-p1{font-size: 21px !important;}
+  .header-p2{font-size: 17px !important;}
+  .header-p3{font-size: 17px !important;}
 }
-@media screen and (max-width: 370px){
-  .mr-auto{margin: 10px auto; position:relative;}
+@media screen and (max-width: 500px){
+  .card-2{width: 90%;}
+  .card-2-h1{font-size: 25px;}
+  .card-2-p1{font-size: 20px;}
+  .card-2-p2{font-size: 15px;}
+  .mr-auto{margin: 10px auto;}
+  .header-h1{font-size: 24px !important;}
+  .header-p1{font-size: 19px !important;}
+  .header-p2{font-size: 16px !important;}
+  .header-p3{font-size: 16px !important;}
 }
-@media screen and (max-width: 370px){
-  .accordion{width: 100%;}
+@media screen and (max-width: 400px){
+  .card-2{width: 95%;}
+  .card-2-h1{font-size: 24px;}
+  .card-2-p1{font-size: 19px;}
+  .card-2-p2{font-size: 15px;}
+  .header-h1{font-size: 23px !important;}
+  .header-p1{font-size: 17px !important;}
+  .header-p2{font-size: 15px !important;}
+  .header-p3{font-size: 15px !important;}
 }
+
 .background-color-pink{background-color: #B61E79!important;}
+.background-color-grey{background-color: #F4EDED;}
 .black:hover{border-bottom: 3px solid 00DBF9 !important;}
 .border-black{border:1px solid black;}
 .border-white{border:1px solid white;}
@@ -28,8 +85,8 @@
 .img-round{border-radius: 30px !important;}
 .letter-spacing{letter-spacing: 1.5px;}
 .navlink{color: #c4c4c4 !important; margin: 2px 15px;}
-.navlink:hover{color: black !important; border-bottom: 3px solid #00DBF9; font-weight: bold !important;text-decoration:none;}
 .navlink:active{color: red; border-bottom: 3px solid #00DBF9; font-weight: bold;}
+.navlink:hover{color: black !important; border-bottom: 3px solid #00DBF9; font-weight: bold !important;text-decoration:none;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
 .text-shadow{text-shadow: 0px 4px 4px #b1b0b0;}
 .text-underlined{text-decoration: underline;}

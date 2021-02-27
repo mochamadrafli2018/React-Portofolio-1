@@ -2,7 +2,7 @@ import React from 'react'
 // Import component from Bootstrap
 import {Nav, Navbar} from 'react-bootstrap';
 // Import external JavaScript file
-import AccordionBootstrap from './Bootstrap-Accordion.js';
+import OutputProfile from './Profile.js';
 import OutputCardContainer from './Bootstrap-Card.js';
 import Header from './Header.js'
 // Import font-awesome
@@ -65,7 +65,7 @@ function Card(){
 function About(){
     return(
         <div>
-            <AccordionBootstrap/>
+            <OutputProfile/>
         </div>
     )
 }
