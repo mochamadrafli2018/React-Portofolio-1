@@ -7,7 +7,6 @@ import OutputCardContainer from './Bootstrap-Card.js';
 import Header from './Header.js'
 // Import font-awesome
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-
 // Import react-router-dom component
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 //Routing must have div inside router element
@@ -47,7 +46,7 @@ class SwitchChild extends React.Component{
         )
     }
 }
-//Function to call Cardcontainer and AccordionBootstrap
+//Function to call Header, Cardcontainer and OutputProfile
 function Home(){
     return(
         <div>
