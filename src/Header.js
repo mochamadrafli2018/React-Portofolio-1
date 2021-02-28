@@ -1,17 +1,7 @@
 import React from 'react'
-// Import external file
-import Icon from './Data-Icon.js'
-// Import jquery
+import Footer from './Footer.js'
 import $ from 'jquery'
-class IconOutput extends React.Component{
-    render(){
-        return(
-            <div>
-                <img src={this.props.img}/>
-            </div>
-        )
-    }
-}
+
 class Header extends React.Component{
     render(){
         return(
@@ -25,13 +15,7 @@ class Header extends React.Component{
                     <p class='p2-font text-shadow'>This web-apps created by <span>Mochamad Rafli Ramadhan</span></p>
                     <p class='p2-font'>Copyright <span>2021</span></p>
                 </div>
-                <div>
-                    {Icon.map ( el => {
-                        return(
-                            <IconOutput img={el.img} class='img-width' style={{'width':'2px'}}/>
-                        )
-                    })}
-                </div>
+                <Footer/>
             </div>
         )
     }

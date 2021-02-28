@@ -51,7 +51,6 @@
   .p2-font{font-size: 15px;}
   .h1-font{font-size: 23px;}
 }
-
 .background-color-pink{background-color: #B61E79!important;}
 .background-color-grey{background-color: #F4EDED;}
 .black:hover{border-bottom: 3px solid 00DBF9 !important;}
@@ -61,12 +60,15 @@
 .btn-dark-mode:hover{border: 1px solid black;}
 .btn-dark-mode:active{border: 1px solid black;}
 .dark-mode{color: white; background-color: black;}
+.footer-icon{color:white; margin: 10px; width: 30px;}
+.footer-li{border: 1px solid #B61E79; display: inline; }
+.footer-ul{background-color: #B61E79; border-top-left-radius: 20px; border-top-right-radius: 20px; list-style-type: none; margin: 0px; padding: 20px;}
 .img-round{border-radius: 30px !important;}
 .img-width{width:2px; height: auto;}
 .letter-spacing{letter-spacing: 1.5px;}
-.navlink{color: #c4c4c4 !important; margin: 2px 15px;}
-.navlink:active{color: red; border-bottom: 3px solid #00DBF9; font-weight: bold;}
+.navlink{color: #c4c4c4 !important; margin: 2px 10%;}
 .navlink:hover{color: black !important; border-bottom: 3px solid #00DBF9; font-weight: bold !important;text-decoration:none;}
+.navlink:active{color: red; border-bottom: 3px solid #00DBF9; font-weight: bold;}
 .quicksand{font-family: 'Quicksand', sans-serif;}
 .text-shadow{text-shadow: 0px 4px 4px #b1b0b0;}
 .text-underlined{text-decoration: underline;}

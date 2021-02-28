@@ -15,7 +15,7 @@ class OutputProfile extends React.Component{
     render(){
         return(
             <>
-                <h1 class='card-1-h1 text-center'>My <span>Profile</span></h1>
+                <h1 class='h1-font text-center'>My <span>Profile</span></h1>
                 <>
                     {Author.map(el => {
                         return(

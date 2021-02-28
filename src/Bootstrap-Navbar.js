@@ -21,7 +21,7 @@ class NavBar extends React.Component{
                                 <Nav.Link href="#"><Link to='/' className='navlink'><b>Home</b></Link></Nav.Link>
                                 <Nav.Link href="#"><Link to='/path' className='navlink'><b>Path</b></Link></Nav.Link>
                                 <Nav.Link href="#"><Link to='/aboutme' className='navlink'><b>About</b></Link></Nav.Link>
-                                <Nav.Link href="#"><Link to='/github' className='navlink'><b>My Github</b></Link></Nav.Link>
+                                <Nav.Link href="#"><Link to='/github' className='navlink'><b>Github</b></Link></Nav.Link>
                             </Nav>
                         </Navbar>
                     </>
