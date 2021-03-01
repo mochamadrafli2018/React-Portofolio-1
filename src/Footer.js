@@ -13,13 +13,16 @@ class IconOutput extends React.Component{
 class Footer extends React.Component{
     render(){
         return(
-            <ul class='footer-ul'>
-                {Icon.map ( el => {
-                    return(
-                        <IconOutput img={el.img} url={el.url}/>
-                    )
-                })}
-            </ul>
+            <div class='footer'>
+                <ul class='footer-ul margin-0px'>
+                    {Icon.map ( el => {
+                        return(
+                            <IconOutput img={el.img} url={el.url}/>
+                        )
+                    })}
+                </ul>
+                <p class='p2-font text-light'>Copyright <span>2021</span></p>
+            </div>
         )
     }
 }

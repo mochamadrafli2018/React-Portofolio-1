@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './Footer.js'
 import $ from 'jquery'
 
-class Header extends React.Component{
+class HomeDisplay extends React.Component{
     render(){
         return(
             <div class='text-center'>
@@ -13,16 +13,10 @@ class Header extends React.Component{
                 </div>
                 <div style={{'margin':'80px auto'}} class=''>
                     <p class='p2-font text-shadow'>This web-apps created by <span>Mochamad Rafli Ramadhan</span></p>
-                    <p class='p2-font'>Copyright <span>2021</span></p>
                 </div>
                 <Footer/>
             </div>
         )
     }
 }
-
-$('.header-h1').addClass('text-underlined');
-$("button").click(function(){
-    $("div").addClass('dark-mode');
-});
-export default Header
+export default HomeDisplay

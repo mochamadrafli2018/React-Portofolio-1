@@ -4,7 +4,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 // Import external JavaScript file
 import OutputProfile from './Profile.js';
 import OutputCardContainer from './Bootstrap-Card.js';
-import Header from './Header.js'
+import HomeDisplay from './Home.js'
 // Import font-awesome
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 // Import react-router-dom component
@@ -46,11 +46,11 @@ class SwitchChild extends React.Component{
         )
     }
 }
-//Function to call Header, Cardcontainer and OutputProfile
+//Function to call Home Bar, Cardcontainer and OutputProfile
 function Home(){
     return(
         <div>
-            <Header/>
+            <HomeDisplay/>
         </div>
     )
 }
