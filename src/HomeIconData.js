@@ -1,7 +1,6 @@
 import img1 from './icon/gmail.png';
 import img2 from './icon/linkedin.png';
 import img3 from './icon/instagram.png';
-import img4 from './icon/github.png'
 
 let Icon = [
     {
@@ -15,10 +14,6 @@ let Icon = [
     {
         img:img3,
         url:'https://www.instagram.com/rafli.r.rmdhn/'
-    },
-    {
-        img:img4,
-        url:'https://github.com/mochamadrafli2018'
     }
 ]
 export default Icon

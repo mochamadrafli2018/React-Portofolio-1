@@ -1,6 +1,6 @@
 import React from 'react'
 // Import data
-import Icon from './Data-Icon.js'
+import Icon from './HomeIconData.js'
 class IconOutput extends React.Component{
     render(){
         return(
@@ -14,14 +14,14 @@ class Footer extends React.Component{
     render(){
         return(
             <div class='footer'>
-                <ul class='footer-ul margin-0px'>
+                <ul class='footer-ul'>
                     {Icon.map ( el => {
                         return(
                             <IconOutput img={el.img} url={el.url}/>
                         )
                     })}
                 </ul>
-                <p class='p2-font text-light'>Copyright <span>2021</span></p>
+                <p class='footer-p p2-font text-light'>Copyright <span>2021</span></p>
             </div>
         )
     }

@@ -8,7 +8,7 @@ class UserProfiles extends React.Component {
       name: {title: '', first: '', last: ''},
       image: ''
     };
-    // fix the this value
+    //Bind this state
     this.getUser = this.getUser.bind(this);
   }
 

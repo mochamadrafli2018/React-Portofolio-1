@@ -29,16 +29,14 @@ class AccordionOutput extends React.Component{
         return(
             <div>
                 <Accordion defaultActiveKey="0" class='accordion'>
-                    
-                        {Repo.map (el => {
-                            return(    
-                                <Card>
-                                    <AccordionTitle title={el.title} eventkey={el.eventkey}/> 
-                                    <AccordionText number={el.number} url={el.url} eventkey={el.eventkey}/>
-                                </Card>
-                            )
-                        })}
-                    
+                    {Repo.map (el => {
+                        return(    
+                            <Card>
+                                <AccordionTitle title={el.title} eventkey={el.eventkey}/> 
+                                <AccordionText number={el.number} url={el.url} eventkey={el.eventkey}/>
+                            </Card>
+                        )
+                    })}
                 </Accordion>
             </div>
         )

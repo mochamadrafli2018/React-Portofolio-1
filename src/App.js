@@ -1,19 +1,18 @@
-//import external CSS
+// Import external CSS
 import './App.css';
-//import React
+// Import React
 import React from 'react';
-//import Bootstrap CSS
+// Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import Bootstrap Java Script
-import NavBar from './Bootstrap-Navbar.js';
+// Import External File
+import Navbar from './Bootstrap-Navbar.js'
 
 //App will be exported to index.js
 function App() {
   return (
     <div class='quicksand'>
-      <NavBar/>
+      <Navbar/>
     </div>
   );
 }
-
 export default App;
