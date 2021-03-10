@@ -1,6 +1,5 @@
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 /* Elemen di bawah ini harus di tulis sebelum media screen supaya efek responsive bisa berjalan */
 .accordion{width: 65%; margin:5px auto;}
 .accordion:hover{box-shadow:0px 0px 10px 0px #B61E79;}
@@ -14,11 +13,14 @@
 .container-3{margin: 10px auto !important;}
 
 .footer{background-color: black; padding: 30px;}
-.footer-icon{color:white; margin: 7px; width: 20px;}
-.footer-li{border: 1px solid #B61E79; border-radius: 10px; margin: 10px; padding: 10px 5px; display: inline;}
-.footer-li:hover{border: none; box-shadow:0px 0px 10px 4px #B61E79; margin: 10px;}
-.footer-p{/*border: 2px solid white*/ margin: 0px auto; padding: 10px; width: 50%;}
-.footer-ul{/*border: 2px solid white*/ list-style-type: none; margin: 0px auto; padding: 10px; width: 100%;}
+.footer-icon{margin: 7px; width: 20px;}
+.footer-icon:hover{margin: 7px;}
+.footer-li{border: 1px solid #B61E79; background-color: #B61E79; border-radius: 10px; margin: 10px; padding: 10px 5px; display: inline;}
+.footer-li:hover{border: none; box-shadow:0px 0px 10px 4px #B61E79;}
+.footer-p{/*border: 2px solid white*/ margin: 0px auto; padding: 10px; width: 95%;}
+.footer-ul{border: 2px solid white; display: grid; 
+  grid-template-columns: auto; 
+  list-style-type: none; margin: 0px auto; padding: 10px; width: 100%;}
 
 .h1-font{font-size: 30px;}
 .p1-font{font-size: 25px;}

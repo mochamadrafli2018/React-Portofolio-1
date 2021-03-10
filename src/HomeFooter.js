@@ -14,6 +14,7 @@ class Footer extends React.Component{
     render(){
         return(
             <div class='footer'>
+                <p class='footer-p p2-font text-light'><b>Social</b> <span>Media</span></p>
                 <ul class='footer-ul'>
                     {Icon.map ( el => {
                         return(
@@ -21,7 +22,7 @@ class Footer extends React.Component{
                         )
                     })}
                 </ul>
-                <p class='footer-p p2-font text-light'>Copyright <span>2021</span></p>
+                <p class='footer-p p-font text-light'>Copyright <span>2021</span></p>
             </div>
         )
     }

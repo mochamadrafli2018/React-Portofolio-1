@@ -1,5 +1,5 @@
 import img1 from './icon/gmail.png';
-import img2 from './icon/linkedin.png';
+import img2 from './icon/linkedin.jpg';
 import img3 from './icon/instagram.png';
 
 let Icon = [
